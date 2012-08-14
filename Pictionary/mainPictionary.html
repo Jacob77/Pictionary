@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pictionary</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="drawFunctions.js"></script>
+<script type="text/javascript" src="mainGUI.js"></script>
+<!--<script type="text/javascript" src="mainGame.js"></script>-->
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+<script src="chatScript.js"></script>
+</head>
+
+<body>
+<article> <!-- canvas will be placed here --> </article>
+
+<div id="user">
+  <b>USERS</b>
+  <div id="users"></div>
+</div>
+
+<div id="chatbox" >
+  <div id="conversation"></div>
+</div>
+
+<div>
+<input id="data" />
+<input type="button" id="datasend" value="send"/>
+</div>
+
+</body>
+</html>
